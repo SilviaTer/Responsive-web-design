@@ -1,14 +1,18 @@
 /* RESET */
+
+
 /* **** */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

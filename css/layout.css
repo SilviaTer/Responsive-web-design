@@ -1,2 +1,18 @@
 /* LAYOUT */
+
+
 /* ***** */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido {
+    width: 1366px;
+    position: relative;
+}
+
+main {
+    height: 1000px;
+}

@@ -1,2 +1,70 @@
-/* FOOTER */
-/* ***** */
+            /* FOOTER */
+            
+            footer {
+                background-color: var(--colorFooter);
+                padding: 40px 20px;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            footer a {
+                color: var(--colorBlanco);
+            }
+            /* links */
+            
+            .linksFooter {
+                display: flex;
+                flex-direction: column;
+                color: var(--colorBlanco);
+            }
+            
+            .linksFooter__redes {}
+            
+            footer li {
+                line-height: 40px;
+            }
+            
+            .linksFooter__redes__titulo¨ {}
+            
+            .linksFooter__redes__twitter,
+            .linksFooter__redes__picture,
+            .linksFooter__red__linkedin {
+                text-indent: 20%;
+            }
+            /* menú */
+            
+            .linksFooter__menu {}
+            
+            .linksFooter__menu__titulo {}
+            
+            .linksFooter__menu__servicios,
+            .linksFooter__menu__proyectos,
+            .linksFooter__menu__contactar {
+                text-indent: 20%;
+            }
+            /* info */
+            
+            .infoFooter {}
+            
+            .infoFooter__explicación {
+                text-align: center;
+                color: var(--colorBlanco);
+            }
+            
+            .infoFooter__copy {
+                text-align: center;
+                color: var(--colorBlanco);
+            }
+            /* Media Querys */
+            /* Desktop */
+            
+            @media only screen and (min-width: 1000px) {
+                .linksFooter {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .linksFooter__redes {
+                    flex-grow: 0.1;
+                }
+            }
+            /* ***** */
