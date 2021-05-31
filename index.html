@@ -16,21 +16,24 @@
         <picture>
             <!-- smartphone -->
             <source srcset="
-            img/smartphone/banner.jpg 1x,
-            img/smartphone/banner@2x.jpg 2x,
-            img/smartphone/banner@3x.jpg 3x" media="(min-width:320px) and (orientation: portrait)">
+            ./img/smartphone/banner.jpg 1x,
+            ./img/smartphone/banner@2x.jpg 2x,
+            ./img/smartphone/banner@3x.jpg 3x
+            " media="(min-width:320px) and (orientation: portrait)" />
             <!-- desktop -->
-            <source src="./img/desktop/banner 1x,
-            ./img/desktop/banner@2x.jpg 2x," media="(min-width:1000px)">
+            <source srcset="./img/desktop/banner 1x,
+            ./img/desktop/banner@2x.jpg 2x,
+            " media="(min-width:1000px)" />
+            <img class="banner" src="" alt="nubes entre montañas " />
         </picture>
         <!-- logotipo -->
-        <h1 class="logotipo ">Logotipo</h1>
+        <h1 class="logotipo">Logotipo</h1>
     </header>
     <!--MAIN -->
     <main></main>
     <!-- FOOTER -->
     <footer>
-        <h6 class="copy ">&copy;Copyright</h6>
+        <h6 class="copy">&copy;Copyright</h6>
     </footer>
 </body>
 

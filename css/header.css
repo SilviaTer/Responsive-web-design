@@ -1,2 +1,40 @@
 /* HEADER */
+
+
 /* ***** */
+
+
+/* Banner */
+
+.banner {
+    /* curva de banner */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    /* ancho de la imagen siemre sea igual al ancho del dispositivo */
+    width: 100vw;
+}
+
+
+/* logotipo */
+
+.logotipo {
+    text-align: center;
+}
+
+
+/* Media Querys */
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1000px) {
+    .banner {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .logotipo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
